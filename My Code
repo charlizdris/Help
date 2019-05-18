@@ -1,0 +1,106 @@
+for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 178 - 0.75*colorStep;
+          int b = 235 - 0*colorStep;
+          int g = 255 - 0.2*colorStep;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+          FastLED.show();
+          delay(15);
+        }
+        for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 28 - 0.06*colorStep;
+          int b = 235 - 0.525*colorStep;
+          int g = 215 - 0.69*colorStep;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+          FastLED.show();
+          delay(15);
+        }
+        for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 16 + .98*colorStep;
+          int b = 130 - 0.65*colorStep;
+          int g = 77 + 0.465*colorStep;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+        
+          FastLED.show();
+          delay(15);
+        }
+         for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 212 - 0.44*colorStep;
+          int b = 0 + 0.*colorStep;
+          int g = 170 - 0.625*colorStep;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+        
+          FastLED.show();
+          delay(15);
+        }
+
+        for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 124 + 0.01*colorStep;
+          int b = 0 + 0.33*colorStep;
+          int g = 45 - 0.06*colorStep;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+        
+          FastLED.show();
+          delay(15);
+        }
+
+        for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 122 - 0.47*colorStep;
+          int b = 66 - 0.01*colorStep;
+          int g = 33 - 0.165*colorStep;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+        
+          FastLED.show();
+          delay(15);
+        }
+
+        for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 28 - 0.14*colorStep;
+          int b = 64 - 0.215*colorStep;
+          int g = 0;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+        
+          FastLED.show();
+          delay(15);
+        }
+
+        for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 0;
+          int b = 0 ;
+          int g = 0;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+        
+          FastLED.show();
+          delay(15);
+        }
+
+
+        for(int colorStep = 0; colorStep < 200; colorStep++){
+          int r = 0 + 0.89*colorStep;
+          int b = 0 + 1.175*colorStep;
+          int g = 0 + 1.275*colorStep;
+                for(int i = 0; i < NUM_LEDS; i++){
+                  leds[i] = CRGB(r,g,b); 
+                  }
+        
+          FastLED.show();
+          delay(15);
+        }
+        
+        
+        
